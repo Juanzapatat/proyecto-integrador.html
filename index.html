@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ login
     <div class="login-container">
         <form class="login-form">
           <h2>INICIO DE SESIÓN</h2>
@@ -23,5 +24,73 @@
           <button type="submit" class="login-btn">INICIAR</button>
         </form>
       </div>
+
+
+      <!--Inicio con el menú de navegación (Aún sin funcionalidad, solamente es lago visual )-->
+<div class="menu"> <!--Creo un div para que la lista trabaje con el formato del contenedor div-->
+    <ul>
+    <li><a href="#">Registro Factura</a></li>
+    <li><a href="#">Control Gastos</a></li>
+    <li><a href="#">Reporte</a></li>
+    <li><a href="#">Cerrar sesión</a></li>
+    </ul>
+    </div>
+    <p class="parrafo-menu">Bienvenido a Bell Check Finanzas tu app de mayor confianza.
+        En nuestro menú de opciones podrás elegir entre:
+        
+        Registrar facturas: Acá podrás ingresar, almacenar y analizar tus facturas.
+        
+        Control de gastos: Acá podrás estar al tanto de tus inversiones, así será más fácil tener un orden en tu empresa 
+        
+        Reporte de factura: Acá podrá estar emitiendo ordenes de factura próximas a vencer y además podrás emitir un formato pdf donde podrás visualizar ingresos y egresos .</p>
+        <!--Aun no esta terminado hacer ajustes más adelante-->
+    
+
+        <!--Abrir formulario -->
+        <!--Utilizo un div para cada boton para más adelante hacer un diseño para cada uno -->
+<div class="container">
+    <h1>Bienvenido a el área de Control de Gatos</h1>
+    <h2>Por favor diligencie el formulario con los datos solicitados </h2>
+</div>
+<div class="form">
+    <form action="" method="post" >
+<div class="gasto">
+        <label for="Nombre Gasto">Nombre Gasto</label>
+        <input type="text" name="nombre-gasto" id="nombre-gasto">
+    </div>
+        <br>
+        <div class="fecha">
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+    </div>
+    <div class="monto">
+        <br>
+        <label for="Monto">Monto</label>
+        <input type="number" name="dinero" id="dinero">
+    </div>
+        <br>
+        <div class="receptor">
+        <label for="Dirigido">Receptor</label>
+        <input type="text" name="receptor" id="receptor">
+    </div>
+    <div class="categoria">
+        <br>
+        <label for="Categoria">Categoría</label>
+        <select name="Categoria" id="categoria">
+            <option value="textil">Textiles</option>
+            <option value="Compra Activos">Compra Activos</option>
+            <option value="Inversion Banco">Inversion Banco</option>
+            <option value="Uso Personal">Uso Personal</option>
+        </select>
+    </div>
+        <br>
+        <div class="gaurdar">
+        <label for="Guardar" id="guardar"> </label>
+        <input type="submit" value="Guardar">
+    </div>
+    </form>
+</div>
+ 
+main
 </body>
 </html>
